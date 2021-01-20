@@ -448,14 +448,17 @@ function gameOver() {
         
     } // Fim da função reposicionaAmigo()
 
-    function reiniciaJogo() {
-        somGameover.pause();
-        $("#fim").remove();
-        start();
-        
-	} // Fim da função gameOver();
+    
     
     //Explosão3
    
 
 } // Fim da função start
+
+
+function reiniciaJogo() {
+    somGameover.pause();
+    $("#fim").remove();
+    start();
+    
+} // Fim da função gameOver();
